@@ -173,6 +173,40 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>GB</fullName>
+                    <default>false</default>
+                    <label>GB</label>
+                </value>
+                <value>
+                    <fullName>EU</fullName>
+                    <default>false</default>
+                    <label>EU</label>
+                </value>
+                <value>
+                    <fullName>PL</fullName>
+                    <default>false</default>
+                    <label>PL</label>
+                </value>
+                <value>
+                    <fullName>HU</fullName>
+                    <default>false</default>
+                    <label>HU</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <label>Test1</label>
     <nameField>
         <label>Test1 Name</label>
