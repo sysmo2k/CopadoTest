@@ -10,7 +10,7 @@ public class Test1TRGTest {
     	insert a;
     
    		List<Test1__c> b = New List<Test1__c>([select id,Country__c from Test1__c where id =: a.id]);
-    	System.assertEquals('PL', b[0].Country__c,'Sorry Country does not Match');
+    	System.assertEquals('GB', b[0].Country__c,'Sorry Country does not Match');
     }
     
         
