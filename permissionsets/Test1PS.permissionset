@@ -10,6 +10,11 @@
         <field>Test1__c.Approver__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Test1__c.Country__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Test1PS</label>
     <objectPermissions>
