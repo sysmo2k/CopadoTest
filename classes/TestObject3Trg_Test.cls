@@ -1,5 +1,6 @@
 /**
  * @author moc <moc@polsource.com>
+ * Comment line 2
  */
 @istest
 public class TestObject3Trg_Test {

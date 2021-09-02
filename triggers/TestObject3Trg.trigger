@@ -1,5 +1,6 @@
 /**
  * @author moc <moc@polsource.com>
+ * Comment line 2
  */
 trigger TestObject3Trg on TestObject3__c (before insert,before update) {
     
