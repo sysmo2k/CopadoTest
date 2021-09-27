@@ -163,6 +163,16 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Field2__c</fullName>
+        <externalId>false</externalId>
+        <label>Field1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>Test2</label>
     <nameField>
         <label>Test2 Name</label>
