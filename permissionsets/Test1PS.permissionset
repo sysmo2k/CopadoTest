@@ -59,4 +59,8 @@
         <object>TestObject3__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabSettings>
+        <tab>TestObject3__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>

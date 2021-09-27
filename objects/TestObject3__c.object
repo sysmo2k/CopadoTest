@@ -227,7 +227,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>TestObject3</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
