@@ -30,6 +30,10 @@
                 <behavior>Edit</behavior>
                 <field>Rate__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Field3__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
