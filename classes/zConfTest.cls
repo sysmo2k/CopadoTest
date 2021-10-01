@@ -1,6 +1,7 @@
 /**
  * @author moc <moc@polsource.com>
  * Comment line 2
+ * Comment line 3
  */
 @istest
 public class zConfTest {
@@ -16,7 +17,7 @@ public class zConfTest {
         
         List<zConference__c> b = New List<zConference__c>([select id,price__c from zConference__c where id =: t3.id]);
     	
-        
+        // Now Calculate Price and assert expected Value
         System.assertEquals(8.97, b[0].price__c,'Price not Calculated Correctly');
         
     }
