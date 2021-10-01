@@ -1,3 +1,7 @@
+/**
+ * @author moc <moc@polsource.com>
+ * Comment line 2
+ */
 @istest
 public class zConfTest {
     
@@ -10,10 +14,10 @@ public class zConfTest {
         
         Insert t3;
         
-        //List<zConference__c> b = New List<zConference__c>([select id,price__c from zConference__c where id =: t3.id]);
-    	//System.assertEquals(8.96, b[0].price__c,'Price not Calculated Correctly');
+        List<zConference__c> b = New List<zConference__c>([select id,price__c from zConference__c where id =: t3.id]);
+    	
         
-        //System.assertEquals(8.97, b[0].price__c,'Price not Calculated Correctly');
+        System.assertEquals(8.97, b[0].price__c,'Price not Calculated Correctly');
         
     }
 
