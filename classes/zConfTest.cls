@@ -15,14 +15,14 @@ public class zConfTest {
         
         Insert t3;
         
-        //List<zConference__c> b = New List<zConference__c>([select id,price__c from zConference__c where id =: t3.id]);
+        List<zConference__c> b = New List<zConference__c>([select id,price__c from zConference__c where id =: t3.id]);
     	
          /**
 			* Calculate Price Based on Rate and QTY
 			* Assert Expected Value
 			* @author MOC
 			*/ 
-        //System.assertEquals(8.97, b[0].price__c,'Price not Calculated Correctly');
+        System.assertEquals(8.97, b[0].price__c,'Price not Calculated Correctly');
         
     }
 
