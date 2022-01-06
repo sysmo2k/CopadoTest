@@ -149,76 +149,16 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Price__c</fullName>
-        <externalId>false</externalId>
-        <label>Price</label>
-        <precision>10</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Product__c</fullName>
-        <externalId>false</externalId>
-        <label>Product</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Burger</fullName>
-                    <default>false</default>
-                    <label>Burger</label>
-                </value>
-                <value>
-                    <fullName>Pizza</fullName>
-                    <default>false</default>
-                    <label>Pizza</label>
-                </value>
-                <value>
-                    <fullName>Kebab</fullName>
-                    <default>false</default>
-                    <label>Kebab</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Qty__c</fullName>
-        <externalId>false</externalId>
-        <label>Qty</label>
-        <precision>3</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Rate__c</fullName>
-        <externalId>false</externalId>
-        <label>Rate</label>
-        <precision>12</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <label>zConference</label>
+    <label>Test8</label>
     <nameField>
-        <label>zConference Name</label>
+        <label>Test8 Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>zConference</pluralLabel>
+    <pluralLabel>Test8</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
